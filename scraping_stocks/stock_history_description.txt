@@ -1,0 +1,7 @@
+Análisis del comportamiento de los precios de las acciones de ECOPETROL:
+
+1. El precio máximo alcanzado fue de $2146.97.
+2. El precio mínimo alcanzado fue de $1509.06.
+3. El precio promedio durante el período fue de $1786.83.
+4. La volatilidad (desviación estándar) fue de $139.26.
+5. El volumen total negociado en este período fue de 1,103,862,356 acciones.

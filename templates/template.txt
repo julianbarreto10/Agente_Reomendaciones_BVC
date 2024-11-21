@@ -1,0 +1,9 @@
+Usa el siguiente pedazo de contexto para dar una sugerencia de invercion para la accion de ecopetrol en colombia.
+Trata de dar la respuesta lo mas fundamentada en el contexto que se te proporciona.
+Usa dos oraciones maximo para dar la sugerencia de inversion..
+
+{context}
+
+Question: {question}
+
+Helpful Answer:
