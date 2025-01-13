@@ -1,7 +1,57 @@
-Análisis del comportamiento de los precios de las acciones de ECOPETROL:
+Análisis del comportamiento del ultimo año de los precios de las acciones de ECOPETROL:
 
-1. El precio máximo alcanzado fue de $2146.97.
-2. El precio mínimo alcanzado fue de $1509.06.
-3. El precio promedio durante el período fue de $1786.83.
-4. La volatilidad (desviación estándar) fue de $139.26.
-5. El volumen total negociado en este período fue de 1,103,862,356 acciones.
+1. El precio máximo alcanzado fue de $2400.00.
+2. El precio mínimo alcanzado fue de $1590.00.
+3. El precio promedio durante el período fue de $1985.65.
+4. La volatilidad (desviación estándar) fue de $182.81.
+5. El volumen total negociado en este período fue de 1,005,636,931 acciones.
+
+Promedios móviles:
+ - SMA 10 días: $1691.00
+ - SMA 50 días: $1732.50
+ - SMA 200 días: $1988.02
+
+Volatilidad diaria (ATR): $41.43
+
+Días de movimientos extremos:
+ - Mayor aumento en precio: 2024-05-06 ($2105.56)
+ - Mayor caída en precio: 2024-05-03 ($1983.90)
+
+Análisis del comportamiento del ultimo mes de los precios de las acciones de ECOPETROL:
+
+1. El precio máximo alcanzado fue de $1830.00.
+2. El precio mínimo alcanzado fue de $1650.00.
+3. El precio promedio durante el período fue de $1724.74.
+4. La volatilidad (desviación estándar) fue de $64.86.
+5. El volumen total negociado en este período fue de 54,774,149 acciones.
+
+Promedios móviles:
+ - SMA 10 días: $1691.00
+ - SMA 50 días: $nan
+ - SMA 200 días: $nan
+
+Volatilidad diaria (ATR): $41.43
+
+Días de movimientos extremos:
+ - Mayor aumento en precio: 2025-01-02 ($1795.00)
+ - Mayor caída en precio: 2024-12-18 ($1685.00)
+
+Análisis del comportamiento del ultimo semana de los precios de las acciones de ECOPETROL:
+
+1. El precio máximo alcanzado fue de $1795.00.
+2. El precio mínimo alcanzado fue de $1675.00.
+3. El precio promedio durante el período fue de $1753.33.
+4. La volatilidad (desviación estándar) fue de $67.88.
+5. El volumen total negociado en este período fue de 7,681,977 acciones.
+
+Promedios móviles:
+ - SMA 10 días: $nan
+ - SMA 50 días: $nan
+ - SMA 200 días: $nan
+
+Volatilidad diaria (ATR): $nan
+
+Días de movimientos extremos:
+ - Mayor aumento en precio: 2025-01-02 ($1795.00)
+ - Mayor caída en precio: 2025-01-03 ($1790.00)
+

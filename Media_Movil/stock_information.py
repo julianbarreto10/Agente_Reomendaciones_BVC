@@ -13,4 +13,4 @@ def stock_history(stock,start_date,end_date):
     df = pd.DataFrame(data)
 
     # Exportar a un archivo CSV
-    df.to_csv("scraping_stocks/data_stock.csv")
+    df.to_csv("data_stock.csv")
