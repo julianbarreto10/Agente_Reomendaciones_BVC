@@ -1,5 +1,9 @@
 import requests
 from bs4 import BeautifulSoup
+import pandas as pd
+from datetime import datetime, timedelta
+
+csv_path = "scraping_news/news.csv"
 
 def modificar_link(busqueda, fecha_inicio, fecha_fin):
     """
@@ -78,12 +82,20 @@ def buscar_links(url):
     return links
 
 # Ejemplo de uso
-if __name__ == "__main__":
+def news_obtain(date):
     # Parámetros de entrada
     busqueda = "ecopetrol"
-    fecha_inicio = "2024-11-01"
-    fecha_fin = "2024-11-04"
+    # Fecha de inicio
+    fecha_fin = date
 
+    # Convertir fecha_inicio a un objeto datetime
+    fecha_fin_dt = datetime.strptime(fecha_fin, "%Y-%m-%d")
+
+    # Restar dos semanas
+    fecha_inicio = fecha_fin_dt - timedelta(weeks=2)
+    fecha_inicio = str(fecha_inicio)
+
+    data = []
     # Modificar el link
     url = modificar_link(busqueda, fecha_inicio, fecha_fin)
     print(f"URL generada: {url}")
@@ -94,5 +106,8 @@ if __name__ == "__main__":
         print("Enlaces encontrados:")
         for enlace in enlaces:
             print(f"https://www.portafolio.co/{enlace}")
+            data.append({'URL': f"https://www.portafolio.co/{enlace}"})
+        news_links = pd.DataFrame(data)
+        news_links.to_csv(csv_path, index=False)
     else:
         print("No se encontraron enlaces.")

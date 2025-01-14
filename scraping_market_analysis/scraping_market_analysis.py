@@ -33,30 +33,31 @@ def extraer_contenido(url):
         print(f"Error procesando {url}: {e}")
         return None
 
-# Cargar archivo CSV y una fecha de referencia
-df = pd.read_csv("scraping_market_analysis/market_analysis.csv")
-df['Fecha'] = df['Fecha'].apply(convertir_a_fecha)  # Convertir fechas a formato datetime
+def scraping_market_analysis(date):
+    # Cargar archivo CSV y una fecha de referencia
+    df = pd.read_csv("scraping_market_analysis/market_analysis.csv")
+    df['Fecha'] = df['Fecha'].apply(convertir_a_fecha)  # Convertir fechas a formato datetime
 
-# Fecha de referencia (puedes cambiarla por cualquier otra)
-fecha_referencia = datetime.strptime("2024-01-01", "%Y-%m-%d")
+    # Fecha de referencia (puedes cambiarla por cualquier otra)
+    fecha_referencia = datetime.strptime(date, "%Y-%m-%d")
 
-# Encontrar los tres enlaces más cercanos por debajo de la fecha
-df_filtrado = df[df['Fecha'] < fecha_referencia].sort_values(by='Fecha', ascending=False).head(3)
+    # Encontrar los tres enlaces más cercanos por debajo de la fecha
+    df_filtrado = df[df['Fecha'] < fecha_referencia].sort_values(by='Fecha', ascending=False).head(3)
 
-# Extraer contenido de los tres enlaces
-contenido_completo = ""
-for index, row in df_filtrado.iterrows():
-    url = row['URL']  # Reemplaza 'columna_con_links' con el nombre correcto
-    fecha = row['Fecha'].strftime("%Y-%m-%d")
-    contenido = extraer_contenido(url)
-    if contenido:
-        contenido_completo += f"--- Artículo del {fecha} ---\n"
-        contenido_completo += f"URL: {url}\n\n"
-        contenido_completo += contenido + "\n\n"
+    # Extraer contenido de los tres enlaces
+    contenido_completo = ""
+    for index, row in df_filtrado.iterrows():
+        url = row['URL']  # Reemplaza 'columna_con_links' con el nombre correcto
+        fecha = row['Fecha'].strftime("%Y-%m-%d")
+        contenido = extraer_contenido(url)
+        if contenido:
+            contenido_completo += f"--- Artículo del {fecha} ---\n"
+            contenido_completo += f"URL: {url}\n\n"
+            contenido_completo += contenido + "\n\n"
 
-# Guardar el contenido en un archivo TXT
-ruta_archivo = os.path.join("scraping_market_analysis/docs", "market_analysis.txt")
-with open(ruta_archivo, "w", encoding="utf-8") as archivo:
-    archivo.write(contenido_completo)
+    # Guardar el contenido en un archivo TXT
+    ruta_archivo = os.path.join("agent_utils/docs_rag/", "market_analysis.txt")
+    with open(ruta_archivo, "w", encoding="utf-8") as archivo:
+        archivo.write(contenido_completo)
 
-print(f"Contenido extraído y guardado en {ruta_archivo}")
+    print(f"Contenido extraído y guardado en {ruta_archivo}")

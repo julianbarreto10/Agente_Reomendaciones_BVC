@@ -1,0 +1,10 @@
+from scraping_stocks.stock_history_description import scraping_stocks
+from scraping_republic_bank.scraping_republic_bank import scraping_republic_bank
+from scraping_news.scraping_news import scraping_news
+from scraping_market_analysis.scraping_market_analysis import scraping_market_analysis
+
+Fecha="2025-01-01"
+scraping_stocks(Fecha)
+scraping_republic_bank(Fecha)
+scraping_news(Fecha)
+scraping_market_analysis(Fecha)
