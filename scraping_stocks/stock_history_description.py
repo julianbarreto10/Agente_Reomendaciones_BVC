@@ -4,7 +4,7 @@ from scraping_stocks.stock_information import stock_history
 from datetime import datetime, timedelta
 
 
-def scraping_stocks(date):
+def scraping_stocks(date,stock):
     end_date = datetime.strptime(date, "%Y-%m-%d")
 
     date_ranges = {
@@ -17,9 +17,19 @@ def scraping_stocks(date):
 
     for report in ['año', 'mes', 'semana']:
         start_date = date_ranges[report]
+        data = {
+            "stock": ["ecopetrol", "bancolombia", "gruponutresa", "cemargos"],
+            "real_name": ["ECOPETROL.CL", "BANCOLOMBIA.CL", "GRUPO_NUTRESA.CL", "CEMARGOS.CL"]
+        }
+
+        df_stocks = pd.DataFrame(data)
+
+
+        # Obtener el nombre real de la acción
+        stock_real_name = df_stocks.set_index("stock")["real_name"].to_dict().get(stock, stock)
 
         # Llamada a la función para generar datos históricos
-        stock_history("ECOPETROL.CL", start_date.strftime('%Y-%m-%d'), end_date.strftime('%Y-%m-%d'))
+        stock_history(stock_real_name, start_date.strftime('%Y-%m-%d'), end_date.strftime('%Y-%m-%d'))
 
         # Nombre del archivo CSV y el archivo de descripción
         csv_file = "scraping_stocks/data_stock.csv"

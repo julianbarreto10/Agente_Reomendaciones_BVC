@@ -33,8 +33,8 @@ def extraer_contenido(url):
         print(f"Error procesando {url}: {e}")
         return None
 
-def scraping_news(date):
-    news_obtain(date)
+def scraping_news(date,stock):
+    news_obtain(date,stock)
     # Cargar archivo CSV y una fecha de referencia
     df = pd.read_csv("scraping_news/news.csv")
 

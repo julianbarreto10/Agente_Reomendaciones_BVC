@@ -82,9 +82,9 @@ def buscar_links(url):
     return links
 
 # Ejemplo de uso
-def news_obtain(date):
+def news_obtain(date,stock):
     # Parámetros de entrada
-    busqueda = "ecopetrol"
+    busqueda = stock
     # Fecha de inicio
     fecha_fin = date
 
