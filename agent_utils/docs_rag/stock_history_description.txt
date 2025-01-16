@@ -1,21 +1,21 @@
 Análisis del comportamiento del ultimo año de los precios de las acciones de ECOPETROL:
 
-1. El precio máximo alcanzado fue de $2400.00.
+1. El precio máximo alcanzado fue de $2427.90.
 2. El precio mínimo alcanzado fue de $1590.00.
-3. El precio promedio durante el período fue de $2000.30.
-4. La volatilidad (desviación estándar) fue de $184.35.
+3. El precio promedio durante el período fue de $2052.32.
+4. La volatilidad (desviación estándar) fue de $213.98.
 5. El volumen total negociado en este período fue de 1,011,793,823 acciones.
 
 Promedios móviles:
  - SMA 10 días: $1669.00
  - SMA 50 días: $1730.00
- - SMA 200 días: $1994.70
+ - SMA 200 días: $2031.98
 
 Volatilidad diaria (ATR): $36.79
 
 Días de movimientos extremos:
- - Mayor aumento en precio: 2024-05-06 ($2121.30)
- - Mayor caída en precio: 2024-05-03 ($1998.73)
+ - Mayor aumento en precio: 2024-05-06 ($2234.26)
+ - Mayor caída en precio: 2024-05-03 ($2105.17)
 
 Análisis del comportamiento del ultimo mes de los precios de las acciones de ECOPETROL:
 
