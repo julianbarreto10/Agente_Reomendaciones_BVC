@@ -3,11 +3,11 @@ import pandas as pd
 from stock_information import stock_history
 
 # Llamada a la función para generar datos históricos
-stock_history("ECOPETROL.CL", "2023-01-01", "2023-11-19")
+stock_history("ECOPETROL.CL", "2023-06-06", "2025-01-01")
 
 # Nombre del archivo CSV
-csv_file = "data_stock.csv"
-reversion_file = "reversion_signals.csv"
+csv_file = "Revertion_Mean/data_stock.csv"
+reversion_file = "Revertion_Mean/reversion_signals.csv"
 
 # Verificar si el archivo existe
 if os.path.exists(csv_file):

@@ -2,14 +2,14 @@ Análisis del comportamiento del ultimo año de los precios de las acciones de E
 
 1. El precio máximo alcanzado fue de $2400.00.
 2. El precio mínimo alcanzado fue de $1590.00.
-3. El precio promedio durante el período fue de $1996.15.
+3. El precio promedio durante el período fue de $2000.30.
 4. La volatilidad (desviación estándar) fue de $184.35.
 5. El volumen total negociado en este período fue de 1,011,793,823 acciones.
 
 Promedios móviles:
  - SMA 10 días: $1669.00
  - SMA 50 días: $1730.00
- - SMA 200 días: $1994.05
+ - SMA 200 días: $1994.70
 
 Volatilidad diaria (ATR): $36.79
 

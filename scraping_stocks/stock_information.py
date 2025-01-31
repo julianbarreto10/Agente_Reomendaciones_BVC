@@ -2,7 +2,7 @@ import yfinance as yf
 import pandas as pd
 
 
-def stock_history(stock,start_date,end_date):
+def stock_history(stock,start_date,end_date,tp=0):
     # Crear un objeto Ticker para ECOPETROL.CL
     ticker = yf.Ticker(stock)
 
@@ -27,4 +27,7 @@ def stock_history(stock,start_date,end_date):
         file.write(descripcion)
 
     # Exportar a un archivo CSV
-    df.to_csv("scraping_stocks/data_stock.csv")
+    if tp==0:
+        df.to_csv("scraping_stocks/data_stock.csv")
+    else:
+        df.to_csv(stock+"/data_stock.csv")
