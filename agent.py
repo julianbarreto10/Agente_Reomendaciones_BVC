@@ -4,7 +4,7 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import DirectoryLoader,TextLoader
 from langchain.tools import Tool
 from langchain.memory import ConversationBufferMemory
-from langchain.embeddings import OpenAIEmbeddings
+from langchain_community.embeddings import OpenAIEmbeddings
 from langchain_community.vectorstores import FAISS
 import getpass
 import os
@@ -20,7 +20,6 @@ import nltk
 #nltk.download('averaged_perceptron_tagger_eng')
 
 Fecha="2025-01-01"
-stock="ecopetrol"
 
 def agent_bvc(Fecha,stock):
     scraping_stocks(Fecha,stock)
@@ -94,12 +93,12 @@ def agent_bvc(Fecha,stock):
         if i==0:
             response_1=agent_executor.invoke(
                 {
-                "input": "¿Cuáles son los comportamientos de los precios de la acción de Ecopetrol?",
+                "input": f"¿Cuáles son los comportamientos de los precios de la acción de {stock}?",
                 # Notice that chat_history is a string, since this prompt is aimed at LLMs, not chat models
                 "chat_history": memory.load_memory_variables({})["chat_history"]
                 })
             memory.save_context(
-                {"input": "¿Cuáles son los comportamientos de los precios de la acción de Ecopetrol?"},
+                {"input": f"¿Cuáles son los comportamientos de los precios de la acción de {stock}?"},
                 {"output": response_1["output"]}
                 )
             #print("Respuesta del Agente 1:", response_1)

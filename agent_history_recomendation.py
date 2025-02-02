@@ -3,14 +3,17 @@ from scraping_stocks.stock_information import stock_history
 from datetime import datetime, timedelta
 import pandas as pd
 import os
+from Revertion_Mean.Signals import revertion_mean
+from Media_Movil.Signals import movil_mean
+from buy_mantein.Signals import buy_mantein
 
 Fecha="2025-01-01"
 end_date = datetime.strptime(Fecha, "%Y-%m-%d")
 start_date = end_date.replace(year=end_date.year - 1)
-stock="ecopetrol"
+stock="nutresa"
 data = {
-        "stock": ["ecopetrol", "bancolombia", "gruponutresa", "cemargos"],
-        "real_name": ["ECOPETROL.CL", "BANCOLOMBIA.CL", "GRUPO_NUTRESA.CL", "CEMARGOS.CL"]
+        "stock": ["ecopetrol", "bancolombia", "nutresa", "cemargos"],
+        "real_name": ["ECOPETROL.CL", "BANCOLOMBIA.CL", "NUTRESA.CL", "CEMARGOS.CL"]
     }
 
 df_stocks = pd.DataFrame(data)
@@ -18,6 +21,9 @@ df_stocks = pd.DataFrame(data)
 
 # Obtener el nombre real de la acción
 stock_real_name = df_stocks.set_index("stock")["real_name"].to_dict().get(stock, stock)
+revertion_mean(stock_real_name)
+movil_mean(stock_real_name)
+buy_mantein(stock_real_name)
 stock_history(stock_real_name, start_date.strftime('%Y-%m-%d'), end_date.strftime('%Y-%m-%d'),1)
 #respuesta=agent_bvc(Fecha,stock)
 #print(respuesta)

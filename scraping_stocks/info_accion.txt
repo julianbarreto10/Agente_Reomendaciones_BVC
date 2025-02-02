@@ -1,1 +1,1 @@
-Ten en cuenta que para el día anterior la acción tuvo estos valores: apertura en 1675.0, un máximo de 1675.0, un mínimo de 1675.0, cerró en 1675.0, con un volumen de 0.0, dividendos de 0.0 y 0.0 divisiones de acciones.
+Ten en cuenta que para el día anterior la acción tuvo estos valores: apertura en 79000.0, un máximo de 79000.0, un mínimo de 79000.0, cerró en 79000.0, con un volumen de 21.0, dividendos de 0.0 y 0.0 divisiones de acciones.

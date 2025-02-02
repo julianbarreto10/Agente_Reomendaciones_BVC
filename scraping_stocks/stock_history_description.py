@@ -18,8 +18,8 @@ def scraping_stocks(date,stock):
     for report in ['año', 'mes', 'semana']:
         start_date = date_ranges[report]
         data = {
-            "stock": ["ecopetrol", "bancolombia", "gruponutresa", "cemargos"],
-            "real_name": ["ECOPETROL.CL", "BANCOLOMBIA.CL", "GRUPO_NUTRESA.CL", "CEMARGOS.CL"]
+            "stock": ["ecopetrol", "bancolombia", "nutresa", "cemargos"],
+            "real_name": ["ECOPETROL.CL", "BANCOLOMBIA.CL", "NUTRESA.CL", "CEMARGOS.CL"]
         }
 
         df_stocks = pd.DataFrame(data)
@@ -67,7 +67,7 @@ def scraping_stocks(date,stock):
             
             # Generar el análisis en lenguaje natural
             description = (
-                f"Análisis del comportamiento del ultimo {report} de los precios de las acciones de ECOPETROL:\n\n"
+                f"Análisis del comportamiento del ultimo {report} de los precios de las acciones de {stock_real_name}:\n\n"
                 f"1. El precio máximo alcanzado fue de ${analysis['max_price']:.2f}.\n"
                 f"2. El precio mínimo alcanzado fue de ${analysis['min_price']:.2f}.\n"
                 f"3. El precio promedio durante el período fue de ${analysis['mean_price']:.2f}.\n"

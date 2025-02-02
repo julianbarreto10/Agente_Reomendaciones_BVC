@@ -3,7 +3,7 @@ import pandas as pd
 
 
 def stock_history(stock,start_date,end_date):
-    # Crear un objeto Ticker para ECOPETROL.CL
+    # Crear un objeto Ticker para accion
     ticker = yf.Ticker(stock)
 
     # Descargar datos históricos, por ejemplo, desde enero de 2023 hasta noviembre de 2023

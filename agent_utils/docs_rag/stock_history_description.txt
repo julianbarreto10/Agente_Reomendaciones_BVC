@@ -1,48 +1,48 @@
-Análisis del comportamiento del ultimo año de los precios de las acciones de ECOPETROL:
+Análisis del comportamiento del ultimo año de los precios de las acciones de NUTRESA.CL:
 
-1. El precio máximo alcanzado fue de $2400.00.
-2. El precio mínimo alcanzado fue de $1590.00.
-3. El precio promedio durante el período fue de $2000.30.
-4. La volatilidad (desviación estándar) fue de $184.35.
-5. El volumen total negociado en este período fue de 1,011,793,823 acciones.
+1. El precio máximo alcanzado fue de $82500.00.
+2. El precio mínimo alcanzado fue de $32462.48.
+3. El precio promedio durante el período fue de $53010.75.
+4. La volatilidad (desviación estándar) fue de $13706.50.
+5. El volumen total negociado en este período fue de 1,640,749 acciones.
 
 Promedios móviles:
- - SMA 10 días: $1669.00
- - SMA 50 días: $1730.00
- - SMA 200 días: $1994.70
+ - SMA 10 días: $79250.00
+ - SMA 50 días: $76599.20
+ - SMA 200 días: $55270.60
 
-Volatilidad diaria (ATR): $36.79
+Volatilidad diaria (ATR): $288.57
 
 Días de movimientos extremos:
- - Mayor aumento en precio: 2024-05-06 ($2121.30)
- - Mayor caída en precio: 2024-05-03 ($1998.73)
+ - Mayor aumento en precio: 2024-05-31 ($57961.71)
+ - Mayor caída en precio: 2024-05-06 ($35797.00)
 
-Análisis del comportamiento del ultimo mes de los precios de las acciones de ECOPETROL:
+Análisis del comportamiento del ultimo mes de los precios de las acciones de NUTRESA.CL:
 
-1. El precio máximo alcanzado fue de $1830.00.
-2. El precio mínimo alcanzado fue de $1650.00.
-3. El precio promedio durante el período fue de $1727.05.
-4. La volatilidad (desviación estándar) fue de $59.75.
-5. El volumen total negociado en este período fue de 59,928,513 acciones.
+1. El precio máximo alcanzado fue de $80000.00.
+2. El precio mínimo alcanzado fue de $78480.00.
+3. El precio promedio durante el período fue de $79354.29.
+4. La volatilidad (desviación estándar) fue de $507.71.
+5. El volumen total negociado en este período fue de 17,255 acciones.
 
 Promedios móviles:
- - SMA 10 días: $1669.00
+ - SMA 10 días: $79250.00
  - SMA 50 días: $nan
  - SMA 200 días: $nan
 
-Volatilidad diaria (ATR): $36.79
+Volatilidad diaria (ATR): $288.57
 
 Días de movimientos extremos:
- - Mayor aumento en precio: 2024-12-09 ($1790.00)
- - Mayor caída en precio: 2024-12-18 ($1685.00)
+ - Mayor aumento en precio: 2024-11-07 ($80000.00)
+ - Mayor caída en precio: 2024-11-18 ($79000.00)
 
-Análisis del comportamiento del ultimo semana de los precios de las acciones de ECOPETROL:
+Análisis del comportamiento del ultimo semana de los precios de las acciones de NUTRESA.CL:
 
-1. El precio máximo alcanzado fue de $1675.00.
-2. El precio mínimo alcanzado fue de $1660.00.
-3. El precio promedio durante el período fue de $1666.00.
-4. La volatilidad (desviación estándar) fue de $8.22.
-5. El volumen total negociado en este período fue de 3,847,884 acciones.
+1. El precio máximo alcanzado fue de $79000.00.
+2. El precio mínimo alcanzado fue de $79000.00.
+3. El precio promedio durante el período fue de $79000.00.
+4. La volatilidad (desviación estándar) fue de $0.00.
+5. El volumen total negociado en este período fue de 8,955 acciones.
 
 Promedios móviles:
  - SMA 10 días: $nan
@@ -52,6 +52,6 @@ Promedios móviles:
 Volatilidad diaria (ATR): $nan
 
 Días de movimientos extremos:
- - Mayor aumento en precio: 2024-12-30 ($1675.00)
- - Mayor caída en precio: 2024-12-26 ($1660.00)
+ - Mayor aumento en precio: 2024-11-29 ($79000.00)
+ - Mayor caída en precio: 2024-11-29 ($79000.00)
 
