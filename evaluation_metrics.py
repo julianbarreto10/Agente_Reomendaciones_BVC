@@ -4,7 +4,7 @@ import yfinance as yf
 import scipy.stats as stats
 import matplotlib.pyplot as plt
 
-indice_referencia = "NUTRESA.CL"
+indice_referencia = "PFBCOLOM.CL"
 
 # Rutas de los archivos CSV
 archivos = {

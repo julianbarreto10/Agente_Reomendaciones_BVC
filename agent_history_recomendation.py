@@ -10,7 +10,7 @@ from buy_mantein.Signals import buy_mantein
 Fecha="2025-01-01"
 end_date = datetime.strptime(Fecha, "%Y-%m-%d")
 start_date = end_date.replace(year=end_date.year - 1)
-stock="bancolombia"
+stock="cemargos"
 data = {
         "stock": ["ecopetrol", "bancolombia", "nutresa", "cemargos"],
         "real_name": ["ECOPETROL.CL", "PFBCOLOM.CL", "NUTRESA.CL", "CEMARGOS.CL"]

@@ -1,48 +1,48 @@
-Análisis del comportamiento del ultimo año de los precios de las acciones de PFBCOLOM.CL:
+Análisis del comportamiento del ultimo año de los precios de las acciones de CEMARGOS.CL:
 
-1. El precio máximo alcanzado fue de $33121.43.
-2. El precio mínimo alcanzado fue de $22794.32.
-3. El precio promedio durante el período fue de $28819.88.
-4. La volatilidad (desviación estándar) fue de $3242.12.
-5. El volumen total negociado en este período fue de 128,499,565 acciones.
+1. El precio máximo alcanzado fue de $7465.27.
+2. El precio mínimo alcanzado fue de $2442.84.
+3. El precio promedio durante el período fue de $4088.60.
+4. La volatilidad (desviación estándar) fue de $1460.89.
+5. El volumen total negociado en este período fue de 692,549,807 acciones.
 
 Promedios móviles:
- - SMA 10 días: $32078.64
- - SMA 50 días: $31923.92
- - SMA 200 días: $30239.53
+ - SMA 10 días: $7043.98
+ - SMA 50 días: $6336.83
+ - SMA 200 días: $4534.84
 
-Volatilidad diaria (ATR): $481.52
+Volatilidad diaria (ATR): $240.46
 
 Días de movimientos extremos:
- - Mayor aumento en precio: 2024-01-04 ($29053.70)
- - Mayor caída en precio: 2024-02-19 ($26315.84)
+ - Mayor aumento en precio: 2023-09-07 ($3561.65)
+ - Mayor caída en precio: 2023-12-20 ($5629.86)
 
-Análisis del comportamiento del ultimo mes de los precios de las acciones de PFBCOLOM.CL:
+Análisis del comportamiento del ultimo mes de los precios de las acciones de CEMARGOS.CL:
 
-1. El precio máximo alcanzado fue de $33095.32.
-2. El precio mínimo alcanzado fue de $31541.33.
-3. El precio promedio durante el período fue de $32198.39.
-4. La volatilidad (desviación estándar) fue de $468.64.
-5. El volumen total negociado en este período fue de 13,144,050 acciones.
+1. El precio máximo alcanzado fue de $7465.27.
+2. El precio mínimo alcanzado fue de $5972.22.
+3. El precio promedio durante el período fue de $6584.31.
+4. La volatilidad (desviación estándar) fue de $521.83.
+5. El volumen total negociado en este período fue de 12,438,777 acciones.
 
 Promedios móviles:
- - SMA 10 días: $32078.64
+ - SMA 10 días: $7043.98
  - SMA 50 días: $nan
  - SMA 200 días: $nan
 
-Volatilidad diaria (ATR): $481.52
+Volatilidad diaria (ATR): $240.46
 
 Días de movimientos extremos:
- - Mayor aumento en precio: 2024-08-30 ($33042.39)
- - Mayor caída en precio: 2024-09-06 ($32111.35)
+ - Mayor aumento en precio: 2024-03-05 ($7322.62)
+ - Mayor caída en precio: 2024-03-12 ($7037.32)
 
-Análisis del comportamiento del ultimo semana de los precios de las acciones de PFBCOLOM.CL:
+Análisis del comportamiento del ultimo semana de los precios de las acciones de CEMARGOS.CL:
 
-1. El precio máximo alcanzado fue de $33095.32.
-2. El precio mínimo alcanzado fue de $31902.34.
-3. El precio promedio durante el período fue de $32391.75.
-4. La volatilidad (desviación estándar) fue de $485.63.
-5. El volumen total negociado en este período fue de 4,339,087 acciones.
+1. El precio máximo alcanzado fue de $7465.27.
+2. El precio mínimo alcanzado fue de $7037.33.
+3. El precio promedio durante el período fue de $7322.62.
+4. La volatilidad (desviación estándar) fue de $168.11.
+5. El volumen total negociado en este período fue de 3,738,688 acciones.
 
 Promedios móviles:
  - SMA 10 días: $nan
@@ -52,6 +52,6 @@ Promedios móviles:
 Volatilidad diaria (ATR): $nan
 
 Días de movimientos extremos:
- - Mayor aumento en precio: 2024-09-25 ($33095.32)
- - Mayor caída en precio: 2024-09-20 ($31902.34)
+ - Mayor aumento en precio: 2024-03-07 ($7417.72)
+ - Mayor caída en precio: 2024-03-12 ($7037.33)
 
