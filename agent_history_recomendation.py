@@ -10,10 +10,10 @@ from buy_mantein.Signals import buy_mantein
 Fecha="2025-01-01"
 end_date = datetime.strptime(Fecha, "%Y-%m-%d")
 start_date = end_date.replace(year=end_date.year - 1)
-stock="nutresa"
+stock="bancolombia"
 data = {
         "stock": ["ecopetrol", "bancolombia", "nutresa", "cemargos"],
-        "real_name": ["ECOPETROL.CL", "BANCOLOMBIA.CL", "NUTRESA.CL", "CEMARGOS.CL"]
+        "real_name": ["ECOPETROL.CL", "PFBCOLOM.CL", "NUTRESA.CL", "CEMARGOS.CL"]
     }
 
 df_stocks = pd.DataFrame(data)
@@ -33,6 +33,9 @@ def obtener_sugerencia(respuesta):
     opciones = ["compra", "vende", "mantén"]
     for opcion in opciones:
         if opcion in respuesta.lower():
+            return opcion
+        else:
+            opcion="mantén"
             return opcion
     print(f"No se identificó una sugerencia en la respuesta: {respuesta}")
     return input("Ingrese manualmente la sugerencia (compra/vende/mantén): ")

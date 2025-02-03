@@ -19,7 +19,7 @@ def scraping_stocks(date,stock):
         start_date = date_ranges[report]
         data = {
             "stock": ["ecopetrol", "bancolombia", "nutresa", "cemargos"],
-            "real_name": ["ECOPETROL.CL", "BANCOLOMBIA.CL", "NUTRESA.CL", "CEMARGOS.CL"]
+            "real_name": ["ECOPETROL.CL", "PFBCOLOM.CL", "NUTRESA.CL", "CEMARGOS.CL"]
         }
 
         df_stocks = pd.DataFrame(data)

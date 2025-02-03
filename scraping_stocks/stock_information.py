@@ -11,7 +11,6 @@ def stock_history(stock,start_date,end_date,tp=0):
 
     # Asegurar que los datos están en un DataFrame (esto ya es un DataFrame por defecto)
     df = pd.DataFrame(data)
-    print(df)
     # Obtener la última fila sin la columna Date
     last_row = df.iloc[-1, :]
 

@@ -1,48 +1,48 @@
-Análisis del comportamiento del ultimo año de los precios de las acciones de NUTRESA.CL:
+Análisis del comportamiento del ultimo año de los precios de las acciones de PFBCOLOM.CL:
 
-1. El precio máximo alcanzado fue de $82500.00.
-2. El precio mínimo alcanzado fue de $32462.48.
-3. El precio promedio durante el período fue de $53010.75.
-4. La volatilidad (desviación estándar) fue de $13706.50.
-5. El volumen total negociado en este período fue de 1,640,749 acciones.
+1. El precio máximo alcanzado fue de $33121.43.
+2. El precio mínimo alcanzado fue de $22794.32.
+3. El precio promedio durante el período fue de $28819.88.
+4. La volatilidad (desviación estándar) fue de $3242.12.
+5. El volumen total negociado en este período fue de 128,499,565 acciones.
 
 Promedios móviles:
- - SMA 10 días: $79250.00
- - SMA 50 días: $76599.20
- - SMA 200 días: $55270.60
+ - SMA 10 días: $32078.64
+ - SMA 50 días: $31923.92
+ - SMA 200 días: $30239.53
 
-Volatilidad diaria (ATR): $288.57
+Volatilidad diaria (ATR): $481.52
 
 Días de movimientos extremos:
- - Mayor aumento en precio: 2024-05-31 ($57961.71)
- - Mayor caída en precio: 2024-05-06 ($35797.00)
+ - Mayor aumento en precio: 2024-01-04 ($29053.70)
+ - Mayor caída en precio: 2024-02-19 ($26315.84)
 
-Análisis del comportamiento del ultimo mes de los precios de las acciones de NUTRESA.CL:
+Análisis del comportamiento del ultimo mes de los precios de las acciones de PFBCOLOM.CL:
 
-1. El precio máximo alcanzado fue de $80000.00.
-2. El precio mínimo alcanzado fue de $78480.00.
-3. El precio promedio durante el período fue de $79354.29.
-4. La volatilidad (desviación estándar) fue de $507.71.
-5. El volumen total negociado en este período fue de 17,255 acciones.
+1. El precio máximo alcanzado fue de $33095.32.
+2. El precio mínimo alcanzado fue de $31541.33.
+3. El precio promedio durante el período fue de $32198.39.
+4. La volatilidad (desviación estándar) fue de $468.64.
+5. El volumen total negociado en este período fue de 13,144,050 acciones.
 
 Promedios móviles:
- - SMA 10 días: $79250.00
+ - SMA 10 días: $32078.64
  - SMA 50 días: $nan
  - SMA 200 días: $nan
 
-Volatilidad diaria (ATR): $288.57
+Volatilidad diaria (ATR): $481.52
 
 Días de movimientos extremos:
- - Mayor aumento en precio: 2024-11-07 ($80000.00)
- - Mayor caída en precio: 2024-11-18 ($79000.00)
+ - Mayor aumento en precio: 2024-08-30 ($33042.39)
+ - Mayor caída en precio: 2024-09-06 ($32111.35)
 
-Análisis del comportamiento del ultimo semana de los precios de las acciones de NUTRESA.CL:
+Análisis del comportamiento del ultimo semana de los precios de las acciones de PFBCOLOM.CL:
 
-1. El precio máximo alcanzado fue de $79000.00.
-2. El precio mínimo alcanzado fue de $79000.00.
-3. El precio promedio durante el período fue de $79000.00.
-4. La volatilidad (desviación estándar) fue de $0.00.
-5. El volumen total negociado en este período fue de 8,955 acciones.
+1. El precio máximo alcanzado fue de $33095.32.
+2. El precio mínimo alcanzado fue de $31902.34.
+3. El precio promedio durante el período fue de $32391.75.
+4. La volatilidad (desviación estándar) fue de $485.63.
+5. El volumen total negociado en este período fue de 4,339,087 acciones.
 
 Promedios móviles:
  - SMA 10 días: $nan
@@ -52,6 +52,6 @@ Promedios móviles:
 Volatilidad diaria (ATR): $nan
 
 Días de movimientos extremos:
- - Mayor aumento en precio: 2024-11-29 ($79000.00)
- - Mayor caída en precio: 2024-11-29 ($79000.00)
+ - Mayor aumento en precio: 2024-09-25 ($33095.32)
+ - Mayor caída en precio: 2024-09-20 ($31902.34)
 

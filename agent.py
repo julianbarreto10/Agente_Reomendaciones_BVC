@@ -93,12 +93,12 @@ def agent_bvc(Fecha,stock):
         if i==0:
             response_1=agent_executor.invoke(
                 {
-                "input": f"¿Cuáles son los comportamientos de los precios de la acción de {stock}?",
+                "input": f"¿Cuáles son los comportamientos de los precios del ultimo año de la acción de {stock}?",
                 # Notice that chat_history is a string, since this prompt is aimed at LLMs, not chat models
                 "chat_history": memory.load_memory_variables({})["chat_history"]
                 })
             memory.save_context(
-                {"input": f"¿Cuáles son los comportamientos de los precios de la acción de {stock}?"},
+                {"input": f"¿Cuáles son los comportamientos de los precios del ultimo año de la acción de {stock}?"},
                 {"output": response_1["output"]}
                 )
             #print("Respuesta del Agente 1:", response_1)
