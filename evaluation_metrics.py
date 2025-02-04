@@ -1,10 +1,9 @@
 import pandas as pd
 import numpy as np
-import yfinance as yf
 import scipy.stats as stats
 import matplotlib.pyplot as plt
 
-indice_referencia = "PFBCOLOM.CL"
+indice_referencia = "CEMARGOS.CL"
 
 # Rutas de los archivos CSV
 archivos = {
