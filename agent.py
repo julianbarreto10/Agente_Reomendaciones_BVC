@@ -19,7 +19,7 @@ import nltk
 #nltk.download('punkt_tab')
 #nltk.download('averaged_perceptron_tagger_eng')
 
-Fecha="2025-01-01"
+
 
 def agent_bvc(Fecha,stock):
     scraping_stocks(Fecha,stock)
@@ -27,8 +27,8 @@ def agent_bvc(Fecha,stock):
     scraping_news(Fecha,stock)
     scraping_market_analysis(Fecha)
 
-    #os.environ["OPENAI_API_KEY"] = getpass.getpass()
-    os.environ["OPENAI_API_KEY"] = "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"
+    os.environ["OPENAI_API_KEY"] = getpass.getpass()
+    
 
     llm = ChatOpenAI(model="gpt-4o-mini")
 

@@ -1,0 +1,15 @@
+Resumen de la acción ECOPETROL
+ NaN  NaN Nemotécnico / Ticker Modalidad/\nTrading Mode Var. % Diaria / Daily Var. % Mes / Month Var. % Anual / Annual       YTD Dividendo / Dividend Valor en Libros / Book Value Fecha Valor en Libros / Date Book Value Utilidad por Acción / Earnings per Share     YIELD    QTOBIN       RPG
+ NaN  NaN            ECOPETROL          Continuo (Open)                     0            0.21875             -0.079399  0.280597                  312                       1903.7                              2024-09-30                                   371.26  0.145455  1.126753  5.777622
+
+Análisis:
+Variación diaria: 0%
+Variación mensual: 0.21875%
+Variación anual: -0.0793991416309013%
+Rendimiento YTD: 0.280597014925373%
+Dividendo: 312
+Valor en libros: 1903.7 (Fecha: 2024-09-30)
+Utilidad por acción: 371.26
+Yield: 0.145454545454545
+Q Tobin: 1.12675316488943
+RPG: 5.77762215159188

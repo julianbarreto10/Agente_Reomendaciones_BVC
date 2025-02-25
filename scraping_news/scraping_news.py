@@ -40,8 +40,6 @@ def scraping_news(date,stock):
 
     # Fecha de referencia (puedes cambiarla por cualquier otra)
 
-
-    # Extraer contenido de los tres enlaces
     contenido_completo = ""
     number_news=0
     for index, row in df.iterrows():
