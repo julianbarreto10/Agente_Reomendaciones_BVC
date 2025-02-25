@@ -1,5 +1,4 @@
 import yfinance as yf
-import investpy
 import pandas as pd
 
 
@@ -9,7 +8,6 @@ def stock_history(stock,start_date,end_date,tp=0):
 
     # Descargar datos históricos, por ejemplo, desde enero de 2023 hasta noviembre de 2023
     data = ticker.history(start=start_date, end=end_date)
-    #data = investpy.get_stock_historical_data(stock=stock, country='Colombia',from_date=start_date, to_date=end_date)
 
     # Asegurar que los datos están en un DataFrame (esto ya es un DataFrame por defecto)
     df = pd.DataFrame(data)

@@ -1,17 +1,5 @@
 Análisis del comportamiento del ultimo año de los precios de las acciones de ECOPETROL.CL:
 
-Análisis:
-Variación diaria: 0%
-Variación mensual: 0.21875%
-Variación anual: -0.0793991416309013%
-Rendimiento YTD: 0.280597014925373%
-Dividendo: 312
-Valor en libros: 1903.7 (Fecha: 2024-09-30)
-Utilidad por acción: 371.26
-Yield: 0.145454545454545
-Q Tobin: 1.12675316488943
-RPG: 5.77762215159188
-
 1. El precio máximo alcanzado fue de $2400.00.
 2. El precio mínimo alcanzado fue de $1590.00.
 3. El precio promedio durante el período fue de $1981.90.
