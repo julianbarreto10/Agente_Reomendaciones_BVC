@@ -1,16 +1,16 @@
 import pandas as pd
 import numpy as np
-import scipy.stats as stats
-import matplotlib.pyplot as plt
 
+# Indice de referencia para calculo metricas
+# puede ser CEMARGOS.CL o ECOPETROL.CL o PFBCOLOM.CL o NUTRESA.CL.
 indice_referencia = "CEMARGOS.CL"
 
 # Rutas de los archivos CSV
 archivos = {
-    "Buy_Mantein": f"{indice_referencia}/buy_signals.csv",
-    "Revertion_Mean": f"{indice_referencia}/reversion_signals.csv",
-    "Media_Movil": f"{indice_referencia}/SMA_signals.csv",
-    "Agente_BVC": f"{indice_referencia}/sugerencias.csv",
+    "Buy_Mantein": f"Resultados_Experimento/{indice_referencia}/buy_mantein_signals.csv",
+    "Revertion_Mean": f"Resultados_Experimento/{indice_referencia}/reversion_signals.csv",
+    "Media_Movil": f"Resultados_Experimento/{indice_referencia}/SMA_signals.csv",
+    "Agente_BVC": f"Resultados_Experimento/{indice_referencia}/agente_signals.csv",
 }
 
 # Nombre de la columna de sugerencias (varía por archivo)
@@ -28,7 +28,7 @@ tasa_libre_riesgo = 0.05
 
 # DataFrame para guardar los resultados
 resultados = pd.DataFrame()
-df_indice = pd.read_csv(f"{indice_referencia}/data_stock.csv")
+df_indice = pd.read_csv(f"Resultados_Experimento/{indice_referencia}/data_stock.csv")
 # Función para calcular métricas
 def calcular_metricas(df, nombre_activo, columna_sugerencia, df_indice):
     # Calcular rendimiento diario
@@ -66,31 +66,5 @@ for nombre_activo, ruta_archivo in archivos.items():
     resultados.loc[nombre_activo, 'Volatilidad'] = volatilidad
     resultados.loc[nombre_activo, 'Sharpe Ratio'] = sharpe_ratio
 
-resultados.to_csv(f"{indice_referencia}/tabla_resultados.csv")
-df_indice.to_csv(f"{indice_referencia}/stock_sugerencias.csv")
-
-# Análisis estadístico
-print("\nAnálisis estadístico:")
-for metrica in ['ARR', 'Volatilidad', 'Sharpe Ratio']:
-    fvalue, pvalue = stats.f_oneway(
-        resultados.loc["Buy_Mantein", metrica],
-        resultados.loc["Revertion_Mean", metrica],
-        resultados.loc["Media_Movil", metrica],
-        resultados.loc["Agente_BVC", metrica],
-    )
-    print(f"Prueba ANOVA para {metrica}: F = {fvalue:.2f}, p = {pvalue:.3f}")
-
-# Gráficos
-fig, axes = plt.subplots(3, 1, figsize=(10, 15))
-
-resultados.plot(y='ARR', kind='bar', ax=axes[0])
-axes[0].set_title('ARR')
-
-resultados.plot(y='Volatilidad', kind='bar', ax=axes[1])
-axes[1].set_title('Volatilidad')
-
-resultados.plot(y='Sharpe Ratio', kind='bar', ax=axes[2])
-axes[2].set_title('Sharpe Ratio')
-
-plt.tight_layout()
-plt.show()
+resultados.to_csv(f"Resultados_Experimento/{indice_referencia}/tabla_resultados.csv")
+df_indice.to_csv(f"Resultados_Experimento/{indice_referencia}/stock_sugerencias.csv")

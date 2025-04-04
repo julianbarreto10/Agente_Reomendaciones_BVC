@@ -10,12 +10,13 @@ import getpass
 import os
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import PromptTemplate
-from scraping_stocks.stock_history_description import scraping_stocks
-from scraping_republic_bank.scraping_republic_bank import scraping_republic_bank
-from scraping_news.scraping_news import scraping_news
-from scraping_market_analysis.scraping_market_analysis import scraping_market_analysis
+from Scrapings.scraping_stocks.stock_history_description import scraping_stocks
+from Scrapings.scraping_republic_bank.scraping_republic_bank import scraping_republic_bank
+from Scrapings.scraping_news.scraping_news import scraping_news
+from Scrapings.scraping_market_analysis.scraping_market_analysis import scraping_market_analysis
 
 import nltk
+## Descargar los recursos necesarios de nltk
 #nltk.download('punkt_tab')
 #nltk.download('averaged_perceptron_tagger_eng')
 
@@ -56,11 +57,11 @@ def agent_bvc(Fecha,stock):
     # Crear memoria compartida entre ambos agentes
     memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
 
-    with open('templates/template_agent_1.txt', 'r') as archivo:
+    with open('prompt/template_agent_1.txt', 'r') as archivo:
         # Lee el contenido del archivo y lo guarda en una variable str
         template = archivo.read()
 
-    with open('scraping_stocks/info_accion.txt', 'r') as archivo:
+    with open('Scrapings/scraping_stocks/info_accion.txt', 'r') as archivo:
         # Lee el contenido del archivo y lo guarda en una variable str
         valor_accion = archivo.read()
 
@@ -73,7 +74,7 @@ def agent_bvc(Fecha,stock):
     agent_executor = AgentExecutor(agent=agent, tools=tools, verbose=True)
 
   
-    with open('templates/template_agent_2.txt', 'r') as archivo:
+    with open('prompt/template_agent_2.txt', 'r') as archivo:
         # Lee el contenido del archivo y lo guarda en una variable str
         template_2 = archivo.read()
 
@@ -84,11 +85,11 @@ def agent_bvc(Fecha,stock):
     review_template.format(input=input, chat_history=history)
     chain = review_template | llm
 
-    iterator=5
+    iterator=10
 
 
     # --- Flujo de interacción ---
-    for i in range(iterator):  # Puedes ajustar el número de iteraciones según tus necesidades
+    for i in range(iterator):  # Ajustar el número de iteraciones según tus necesidades
         # 1. Ejecutar el primer agente para responder sobre una acción
         if i==0:
             response_1=agent_executor.invoke(
