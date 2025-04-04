@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-# Indice de referencia para calculo metricas
+# Indice de referencia para calculo métricas
 # puede ser CEMARGOS.CL o ECOPETROL.CL o PFBCOLOM.CL o NUTRESA.CL.
 indice_referencia = "CEMARGOS.CL"
 

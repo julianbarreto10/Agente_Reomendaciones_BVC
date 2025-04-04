@@ -12,8 +12,8 @@ stock="ecopetrol"
 actualizar_links_market_analisis() #No es necesario actualizar cada vez, los informes salen cada semana
 actualizar_links_republic_bank() #No es necesario actualizar cada vez, los informes salen cada mes
 
-# Descargar y procesar informes de la BVC, aplica solo para la fecha actual o hasta tres dias antes
-# de lo contrrio comentariar la siguiente linea de codigo
+# Descargar y procesar informes de la BVC, aplica solo para la fecha actual o hasta tres días antes
+# de lo contrario comentariar la siguiente línea de código
 descargar_y_procesar("ECOPETROL", "Agent_utils/docs_rag/resumen_accion.txt")
 
 # Correr Agente_BVC

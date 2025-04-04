@@ -1,0 +1,111 @@
+.
+├── Agent_utils
+│   └── docs_rag
+│       ├── adicional.txt
+│       ├── market_analysis.txt
+│       ├── news.txt
+│       ├── republick_bank_information.txt
+│       ├── resumen_accion.txt
+│       └── stock_history_description.txt
+├── Estrategias_tradicionales
+│   ├── Media_Movil
+│   │   ├── Signals.py
+│   │   ├── data_stock.csv
+│   │   ├── stock_information.py
+│   │   └── trading_signals.csv
+│   ├── Revertion_Mean
+│   │   ├── Signals.py
+│   │   ├── data_stock.csv
+│   │   ├── reversion_signals.csv
+│   │   └── stock_information.py
+│   └── buy_mantein
+│       ├── Signals.py
+│       ├── data_stock.csv
+│       ├── reversion_signals.csv
+│       └── stock_information.py
+├── Prompts
+│   ├── template_agent_1.txt
+│   └── template_agent_2.txt
+├── README.md
+├── Resultados_Experimento
+│   ├── CEMARGOS.CL
+│   │   ├── SMA_signals.csv
+│   │   ├── agente_signals.csv
+│   │   ├── buy_mantein_signals.csv
+│   │   ├── data_stock.csv
+│   │   ├── newplot.png
+│   │   ├── reversion_signals.csv
+│   │   ├── stock_sugerencias.csv
+│   │   └── tabla_resultados.csv
+│   ├── ECOPETROL.CL
+│   │   ├── SMA_signals.csv
+│   │   ├── agente_signals.csv
+│   │   ├── buy_mantein_signals.csv
+│   │   ├── data_stock.csv
+│   │   ├── newplot.png
+│   │   ├── reversion_signals.csv
+│   │   ├── stock_sugerencias.csv
+│   │   └── tabla_resultados.csv
+│   ├── NUTRESA.CL
+│   │   ├── SMA_signals.csv
+│   │   ├── agente_signals.csv
+│   │   ├── buy_mantein_signals.csv
+│   │   ├── data_stock.csv
+│   │   ├── newplot.png
+│   │   ├── reversion_signals.csv
+│   │   ├── stock_sugerencias.csv
+│   │   └── tabla_resultados.csv
+│   └── PFBCOLOM.CL
+│       ├── SMA_signals.csv
+│       ├── agente_signals.csv
+│       ├── buy_mantein_signals.csv
+│       ├── data_stock.csv
+│       ├── newplot.png
+│       ├── reversion_signals.csv
+│       ├── stock_sugerencias.csv
+│       └── tabla_resultados.csv
+├── Scrapings
+│   ├── scraping_informes_bvc
+│   │   ├── Informes_BVC
+│   │   └── data_obtain.py
+│   ├── scraping_market_analysis
+│   │   ├── Identificador_fecha.py
+│   │   ├── docs
+│   │   │   └── market_analysis.txt
+│   │   ├── link_extractor.py
+│   │   ├── market_analysis.csv
+│   │   ├── market_analysis.py
+│   │   ├── market_analysis.txt
+│   │   └── scraping_market_analysis.py
+│   ├── scraping_news
+│   │   ├── docs
+│   │   │   └── news.txt
+│   │   ├── news.csv
+│   │   ├── news_obtain.py
+│   │   └── scraping_news.py
+│   ├── scraping_republic_bank
+│   │   ├── Republic_bank.csv
+│   │   ├── Republick_bank_information.py
+│   │   ├── docs
+│   │   │   └── republick_bank_information.txt
+│   │   └── scraping_republic_bank.py
+│   └── scraping_stocks
+│       ├── data_stock.csv
+│       ├── info_accion.txt
+│       ├── stock_history_description.py
+│       ├── stock_history_description.txt
+│       └── stock_information.py
+├── agent.py
+├── agent_history_experiment.py
+├── agent_run.py
+├── analisis_resultados.ipynb
+├── chromedriver-linux64
+│   ├── LICENSE.chromedriver
+│   ├── THIRD_PARTY_NOTICES.chromedriver
+│   └── chromedriver
+├── estructura.txt
+├── evaluation_metrics.py
+├── logs.txt
+└── requirements.txt
+
+24 directories, 85 files
