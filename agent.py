@@ -33,7 +33,7 @@ def agent_bvc(Fecha,stock):
 
     llm = ChatOpenAI(model="gpt-4o-mini")
 
-    loader = DirectoryLoader("agent_utils/docs_rag", glob="**/*.txt",loader_cls=lambda file_path: TextLoader(file_path, encoding="utf-8"))
+    loader = DirectoryLoader("Agent_utils/docs_rag", glob="**/*.txt",loader_cls=lambda file_path: TextLoader(file_path, encoding="utf-8"))
     docs = loader.load()
 
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
@@ -57,7 +57,7 @@ def agent_bvc(Fecha,stock):
     # Crear memoria compartida entre ambos agentes
     memory = ConversationBufferMemory(memory_key="chat_history", return_messages=True)
 
-    with open('prompt/template_agent_1.txt', 'r') as archivo:
+    with open('Prompts/template_agent_1.txt', 'r') as archivo:
         # Lee el contenido del archivo y lo guarda en una variable str
         template = archivo.read()
 
@@ -74,7 +74,7 @@ def agent_bvc(Fecha,stock):
     agent_executor = AgentExecutor(agent=agent, tools=tools, verbose=True)
 
   
-    with open('prompt/template_agent_2.txt', 'r') as archivo:
+    with open('Prompts/template_agent_2.txt', 'r') as archivo:
         # Lee el contenido del archivo y lo guarda en una variable str
         template_2 = archivo.read()
 

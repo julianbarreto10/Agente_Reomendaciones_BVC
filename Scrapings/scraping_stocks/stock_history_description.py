@@ -33,7 +33,7 @@ def scraping_stocks(date,stock):
 
         # Nombre del archivo CSV y el archivo de descripción
         csv_file = "Scrapings/scraping_stocks/data_stock.csv"
-        description_file = "agent_utils/docs_rag/stock_history_description.txt"
+        description_file = "Agent_utils/docs_rag/stock_history_description.txt"
 
         # Verificar si el archivo existe
         if os.path.exists(csv_file):

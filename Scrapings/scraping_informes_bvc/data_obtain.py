@@ -116,4 +116,4 @@ def descargar_y_procesar(accion, salida_txt):
 
 
 # Uso de la función
-# descargar_y_procesar("BCOLOMBIA", "agent_utils/docs_rag/resumen_accion.txt")
+# descargar_y_procesar("BCOLOMBIA", "Agent_utils/docs_rag/resumen_accion.txt")

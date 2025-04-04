@@ -14,7 +14,7 @@ actualizar_links_republic_bank() #No es necesario actualizar cada vez, los infor
 
 # Descargar y procesar informes de la BVC, aplica solo para la fecha actual o hasta tres dias antes
 # de lo contrrio comentariar la siguiente linea de codigo
-descargar_y_procesar("ECOPETROL", "agent_utils/docs_rag/resumen_accion.txt")
+descargar_y_procesar("ECOPETROL", "Agent_utils/docs_rag/resumen_accion.txt")
 
 # Correr Agente_BVC
 respuesta=agent_bvc(Fecha,stock)

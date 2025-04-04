@@ -62,7 +62,7 @@ def scraping_republic_bank(date):
             contenido_completo += contenido + "\n\n"
 
     # Guardar el contenido en un archivo TXT
-    ruta_archivo = os.path.join("agent_utils/docs_rag/", "republick_bank_information.txt")
+    ruta_archivo = os.path.join("Agent_utils/docs_rag/", "republick_bank_information.txt")
     with open(ruta_archivo, "w", encoding="utf-8") as archivo:
         archivo.write(contenido_completo)
 
