@@ -13,4 +13,4 @@ def stock_history(stock,start_date,end_date):
     df = pd.DataFrame(data)
 
     # Exportar a un archivo CSV
-    df.to_csv("Buy_Mantein/data_stock.csv")
+    df.to_csv("Estrategias_tradicionales/Buy_Mantein/data_stock.csv")
