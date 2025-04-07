@@ -2,47 +2,47 @@ Análisis del comportamiento del ultimo año de los precios de las acciones de E
 
 1. El precio máximo alcanzado fue de $2280.00.
 2. El precio mínimo alcanzado fue de $1510.50.
-3. El precio promedio durante el período fue de $1895.87.
-4. La volatilidad (desviación estándar) fue de $179.50.
-5. El volumen total negociado en este período fue de 1,311,021,329 acciones.
+3. El precio promedio durante el período fue de $1893.40.
+4. La volatilidad (desviación estándar) fue de $172.13.
+5. El volumen total negociado en este período fue de 1,011,793,823 acciones.
 
 Promedios móviles:
- - SMA 10 días: $2038.58
- - SMA 50 días: $1948.33
- - SMA 200 días: $1857.57
+ - SMA 10 días: $1585.55
+ - SMA 50 días: $1643.50
+ - SMA 200 días: $1890.03
 
-Volatilidad diaria (ATR): $42.29
+Volatilidad diaria (ATR): $34.95
 
 Días de movimientos extremos:
- - Mayor aumento en precio: 2025-02-20 ($2123.25)
- - Mayor caída en precio: 2025-02-19 ($1729.00)
+ - Mayor aumento en precio: 2024-05-06 ($2000.28)
+ - Mayor caída en precio: 2024-05-03 ($1884.71)
 
 Análisis del comportamiento del ultimo mes de los precios de las acciones de ECOPETROL.CL:
 
-1. El precio máximo alcanzado fue de $2085.00.
-2. El precio mínimo alcanzado fue de $1833.50.
-3. El precio promedio durante el período fue de $1987.17.
-4. La volatilidad (desviación estándar) fue de $68.87.
-5. El volumen total negociado en este período fue de 246,205,785 acciones.
+1. El precio máximo alcanzado fue de $1738.50.
+2. El precio mínimo alcanzado fue de $1567.50.
+3. El precio promedio durante el período fue de $1640.69.
+4. La volatilidad (desviación estándar) fue de $56.77.
+5. El volumen total negociado en este período fue de 59,928,513 acciones.
 
 Promedios móviles:
- - SMA 10 días: $2038.58
+ - SMA 10 días: $1585.55
  - SMA 50 días: $nan
  - SMA 200 días: $nan
 
-Volatilidad diaria (ATR): $42.29
+Volatilidad diaria (ATR): $34.95
 
 Días de movimientos extremos:
- - Mayor aumento en precio: 2025-03-06 ($1900.00)
- - Mayor caída en precio: 2025-04-03 ($2000.00)
+ - Mayor aumento en precio: 2024-12-09 ($1700.50)
+ - Mayor caída en precio: 2024-12-18 ($1600.75)
 
 Análisis del comportamiento del ultimo semana de los precios de las acciones de ECOPETROL.CL:
 
-1. El precio máximo alcanzado fue de $2085.00.
-2. El precio mínimo alcanzado fue de $2000.00.
-3. El precio promedio durante el período fue de $2054.60.
-4. La volatilidad (desviación estándar) fue de $36.86.
-5. El volumen total negociado en este período fue de 87,776,200 acciones.
+1. El precio máximo alcanzado fue de $1591.25.
+2. El precio mínimo alcanzado fue de $1577.00.
+3. El precio promedio durante el período fue de $1582.70.
+4. La volatilidad (desviación estándar) fue de $7.81.
+5. El volumen total negociado en este período fue de 3,847,884 acciones.
 
 Promedios móviles:
  - SMA 10 días: $nan
@@ -52,6 +52,6 @@ Promedios móviles:
 Volatilidad diaria (ATR): $nan
 
 Días de movimientos extremos:
- - Mayor aumento en precio: 2025-03-31 ($2075.00)
- - Mayor caída en precio: 2025-04-03 ($2000.00)
+ - Mayor aumento en precio: 2024-12-30 ($1591.25)
+ - Mayor caída en precio: 2024-12-26 ($1577.00)
 
